@@ -6,8 +6,7 @@ scanf("%d",&a);
 b=a/100;
 c=(a-b*100)/10;
 d=a-b*100-c*10;
-a=d*100+c*10+b;
 printf("the result is ");
-printf("%d",a);
+printf("%d%d%d",d,c,b);
 return 0;
 }
